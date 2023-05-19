@@ -2,19 +2,20 @@
 
     <div class="big-card__image">
         <img 
-            src="https://cdn.britannica.com/49/182849-050-4C7FE34F/scene-Iron-Man.jpg" 
+            src="{{ photoCover }}" 
             alt=""
         >
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
-            <a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident cumque reprehenderit atque optio 
-            doloribus eos obcaecati sequi velit dolorem id.</a>
+            <a href="#"> 
+                {{ cardDescription }}
+            </a>
         </p>
     </div>
 
