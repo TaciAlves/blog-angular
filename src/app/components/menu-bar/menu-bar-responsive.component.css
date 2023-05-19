@@ -1,0 +1,7 @@
+@media screen and (max-width: 450px) {
+    .container__menu-bar > ul > li {
+        font-size: 14px;
+        align-items: center;
+    }
+}
+

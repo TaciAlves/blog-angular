@@ -1,0 +1,39 @@
+@media screen and (max-width: 450px) {
+    .container__big-card {
+        width: 100%;
+        max-width: 350px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .big-card__title > h1 {
+        margin-top: 15px;
+        font-size: 24px;
+    }
+
+    .big-card__image {
+       width: 100%;
+       background-size: cover;
+       overflow: hidden;
+    }
+    
+    .big-card__description > p > a {
+        align-items: center;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}
+
+
+/* .big-card__description {
+    margin-top: 10px;
+} */
+
+
+
+

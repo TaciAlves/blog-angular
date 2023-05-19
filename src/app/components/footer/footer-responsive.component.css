@@ -1,0 +1,15 @@
+@media screen and (max-width: 450px) {
+    
+    .container__footer > p{
+        font-size: 12px;
+    }
+    
+    .container__footer {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .container__footer__separator {
+        margin-bottom: 10px;
+    }
+}

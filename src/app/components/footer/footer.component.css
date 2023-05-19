@@ -1,0 +1,16 @@
+.container__footer > p{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.container__footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.container__footer__separator {
+    margin-bottom: 10px;
+}
+
